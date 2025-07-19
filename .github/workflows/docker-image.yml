@@ -14,7 +14,7 @@ jobs:
     - name: Push the Docker image
       run: docker push ravindrashekhawat/kafka-exporter:${{ github.event.release.tag_name }}
     - name: tag the Docker image Latest
-      run: docker tag ravindrashekhawat/kafka-exporter:${{ github.event.release.tag_name }} docker tag ravindrashekhawat/kafka-exporter:latest
+      run: docker tag ravindrashekhawat/kafka-exporter:${{ github.event.release.tag_name }} ravindrashekhawat/kafka-exporter:latest
     - name: Push the Docker image
       run: docker push ravindrashekhawat/kafka-exporter:latest
 
