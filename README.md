@@ -49,24 +49,6 @@ Typical exporters (like `danielqsj/kafka_exporter`) fetch and compute Kafka metr
 
 ---
 
-## 📦 Installation
-
-### Using Docker
-
-```bash
-docker pull yourdockerhubuser/fast-kafka-exporter:latest
-```
-
-### Build from Source
-
-```bash
-git clone https://github.com/youruser/fast-kafka-exporter.git
-cd fast-kafka-exporter
-go build -o kafka-exporter .
-```
-
----
-
 ## 📈 Comparison with danielqsj/kafka_exporter
 
 | Feature                         | This Exporter         | danielqsj/kafka_exporter |
@@ -88,7 +70,7 @@ Please open an issue or submit a pull request to help improve this exporter.
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GPL-3.0 License](https://github.com/rvgud/kafka-exporter?tab=GPL-3.0-1-ov-file).
 
 ---
 
