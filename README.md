@@ -103,7 +103,7 @@ docker run -p 8080:8080 \
 scrape_configs:
   - job_name: 'kafka-exporter'
     static_configs:
-      - targets: ['localhost:9308']
+      - targets: ['localhost:8080']
 ```
 ---
 
