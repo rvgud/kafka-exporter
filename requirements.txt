@@ -1,0 +1,7 @@
+kafka-python
+prometheus_client
+python-json-logger
+flask
+waitress==2.1.2
+pympler
+requests
